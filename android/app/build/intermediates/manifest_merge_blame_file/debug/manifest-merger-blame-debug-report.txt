@@ -1,0 +1,166 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.qualitygradingmeatapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\main\AndroidManifest.xml:5:5-64
+13-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\main\AndroidManifest.xml:5:22-62
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->[com.facebook.flipper:flipper:0.125.0] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\03f04a3f11198ce3b7c6cedb9b41266b\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+14-->[com.facebook.flipper:flipper:0.125.0] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\03f04a3f11198ce3b7c6cedb9b41266b\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+15
+16    <queries>
+16-->[:react-native-image-crop-picker] C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-13:15
+17        <intent>
+17-->[:react-native-image-crop-picker] C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:18
+18            <action android:name="android.media.action.IMAGE_CAPTURE" />
+18-->[:react-native-image-crop-picker] C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-73
+18-->[:react-native-image-crop-picker] C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:21-70
+19        </intent>
+20        <intent>
+20-->[androidx.camera:camera-extensions:1.1.0-beta02] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\58e61cdcc3b2c1463d48046baa6d2071\transformed\jetified-camera-extensions-1.1.0-beta02\AndroidManifest.xml:25:9-27:18
+21            <action android:name="androidx.camera.extensions.action.VENDOR_ACTION" />
+21-->[androidx.camera:camera-extensions:1.1.0-beta02] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\58e61cdcc3b2c1463d48046baa6d2071\transformed\jetified-camera-extensions-1.1.0-beta02\AndroidManifest.xml:26:13-86
+21-->[androidx.camera:camera-extensions:1.1.0-beta02] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\58e61cdcc3b2c1463d48046baa6d2071\transformed\jetified-camera-extensions-1.1.0-beta02\AndroidManifest.xml:26:21-83
+22        </intent>
+23    </queries>
+24
+25    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+25-->[:react-native-image-crop-picker] C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-81
+25-->[:react-native-image-crop-picker] C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:22-78
+26
+27    <application
+27-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\main\AndroidManifest.xml:6:5-25:19
+28        android:name="com.qualitygradingmeatapp.MainApplication"
+28-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\main\AndroidManifest.xml:7:7-38
+29        android:allowBackup="false"
+29-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\main\AndroidManifest.xml:11:7-34
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.7.0] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\63a3df243d2d102452600006144a86df\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\main\AndroidManifest.xml:9:7-41
+33        android:label="@string/app_name"
+33-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\main\AndroidManifest.xml:8:7-39
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\main\AndroidManifest.xml:10:7-52
+35        android:theme="@style/AppTheme"
+35-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\main\AndroidManifest.xml:12:7-38
+36        android:usesCleartextTraffic="true" >
+36-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\debug\AndroidManifest.xml:8:9-44
+37        <activity
+37-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\debug\AndroidManifest.xml:11:9-111
+38            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+38-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\debug\AndroidManifest.xml:11:19-83
+39            android:exported="false" />
+39-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\debug\AndroidManifest.xml:11:84-108
+40        <activity
+40-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\main\AndroidManifest.xml:13:7-24:18
+41            android:name="com.qualitygradingmeatapp.MainActivity"
+41-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\main\AndroidManifest.xml:14:9-37
+42            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+42-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\main\AndroidManifest.xml:16:9-118
+43            android:exported="true"
+43-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\main\AndroidManifest.xml:19:9-32
+44            android:label="@string/app_name"
+44-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\main\AndroidManifest.xml:15:9-41
+45            android:launchMode="singleTask"
+45-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\main\AndroidManifest.xml:17:9-40
+46            android:windowSoftInputMode="adjustResize" >
+46-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\main\AndroidManifest.xml:18:9-51
+47            <intent-filter>
+47-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\main\AndroidManifest.xml:20:9-23:25
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\main\AndroidManifest.xml:21:13-65
+48-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\main\AndroidManifest.xml:21:21-62
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\main\AndroidManifest.xml:22:13-73
+50-->C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\android\app\src\main\AndroidManifest.xml:22:23-70
+51            </intent-filter>
+52        </activity>
+53
+54        <provider
+54-->[:react-native-image-crop-picker] C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-26:20
+55            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
+55-->[:react-native-image-crop-picker] C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-94
+56            android:authorities="com.qualitygradingmeatapp.provider"
+56-->[:react-native-image-crop-picker] C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-60
+57            android:exported="false"
+57-->[:react-native-image-crop-picker] C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+58            android:grantUriPermissions="true" >
+58-->[:react-native-image-crop-picker] C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-47
+59            <meta-data
+59-->[:react-native-image-crop-picker] C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:78
+60                android:name="android.support.FILE_PROVIDER_PATHS"
+60-->[:react-native-image-crop-picker] C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-67
+61                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
+61-->[:react-native-image-crop-picker] C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-75
+62        </provider>
+63
+64        <activity
+64-->[:react-native-image-crop-picker] C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-30:72
+65            android:name="com.yalantis.ucrop.UCropActivity"
+65-->[:react-native-image-crop-picker] C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-60
+66            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+66-->[:react-native-image-crop-picker] C:\Users\Tanvir Ahmed\Desktop\RN-QualityGradingMeatApp-main\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-69
+67
+68        <uses-library
+68-->[androidx.camera:camera-extensions:1.1.0-beta02] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\58e61cdcc3b2c1463d48046baa6d2071\transformed\jetified-camera-extensions-1.1.0-beta02\AndroidManifest.xml:31:9-33:40
+69            android:name="androidx.camera.extensions.impl"
+69-->[androidx.camera:camera-extensions:1.1.0-beta02] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\58e61cdcc3b2c1463d48046baa6d2071\transformed\jetified-camera-extensions-1.1.0-beta02\AndroidManifest.xml:32:13-59
+70            android:required="false" />
+70-->[androidx.camera:camera-extensions:1.1.0-beta02] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\58e61cdcc3b2c1463d48046baa6d2071\transformed\jetified-camera-extensions-1.1.0-beta02\AndroidManifest.xml:33:13-37
+71
+72        <service
+72-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\3e86f85b9f78edbc133d3eb4648b358d\transformed\jetified-camera-camera2-1.1.0-beta02\AndroidManifest.xml:26:9-35:19
+73            android:name="androidx.camera.core.impl.MetadataHolderService"
+73-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\3e86f85b9f78edbc133d3eb4648b358d\transformed\jetified-camera-camera2-1.1.0-beta02\AndroidManifest.xml:27:13-75
+74            android:enabled="false"
+74-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\3e86f85b9f78edbc133d3eb4648b358d\transformed\jetified-camera-camera2-1.1.0-beta02\AndroidManifest.xml:28:13-36
+75            android:exported="false" >
+75-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\3e86f85b9f78edbc133d3eb4648b358d\transformed\jetified-camera-camera2-1.1.0-beta02\AndroidManifest.xml:29:13-37
+76            <meta-data
+76-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\3e86f85b9f78edbc133d3eb4648b358d\transformed\jetified-camera-camera2-1.1.0-beta02\AndroidManifest.xml:32:13-34:89
+77                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+77-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\3e86f85b9f78edbc133d3eb4648b358d\transformed\jetified-camera-camera2-1.1.0-beta02\AndroidManifest.xml:33:17-103
+78                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+78-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\3e86f85b9f78edbc133d3eb4648b358d\transformed\jetified-camera-camera2-1.1.0-beta02\AndroidManifest.xml:34:17-86
+79        </service>
+80
+81        <provider
+81-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+82            android:name="androidx.startup.InitializationProvider"
+82-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+83            android:authorities="com.qualitygradingmeatapp.androidx-startup"
+83-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+84            android:exported="false" >
+84-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+85            <meta-data
+85-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+86                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+86-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+87                android:value="androidx.startup" />
+87-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+88            <meta-data
+88-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\bc74a39e1ea23fea00bfcf2682a93948\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+89                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+89-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\bc74a39e1ea23fea00bfcf2682a93948\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+90                android:value="androidx.startup" />
+90-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Tanvir Ahmed\.gradle\caches\transforms-3\bc74a39e1ea23fea00bfcf2682a93948\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+91        </provider>
+92    </application>
+93
+94</manifest>
